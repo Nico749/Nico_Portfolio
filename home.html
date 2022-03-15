@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nico's Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/helpers.css">
+    <script defer src="node_modules/swup/dist/swup.min.js"></script>
+    <script defer src="swup.js"></script>
+    <style>
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .breadcrumb li a {
+            color: white;
+        }
+
+        .breadcrumb li a:hover {
+            color: rgba(0, 204, 255, 0.733);
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <section class="hero is-fullheight has-background-black ">
+
+        <nav class="breadcrumb has-bullet-separator is-right is-large desktop " aria-label="breadcrumbs">
+            <ul>
+
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/projects.html">Works</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
+        </nav>
+
+        <div id="swup" class="transition-fade">
+            <div class=" hero-body">
+                <div class="container">
+                    <figure class="image center">
+                        <img src="/Demo_photos/personal-photo-modified.png" style="max-width: 350px;">
+                    </figure>
+
+                </div>
+
+                <!-- <button id="projects"><a href="/projects.html"> Projects</a></button> -->
+            </div>
+            <div class="container ">
+                <h1 class="center is-size-1 has-text-white has-text-weight-bold is-family-sans-serif">Nico Pasqualini
+                </h1>
+                <h2 class="center has-text-white">Junior Web Developer</h2>
+            </div>
+            <div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer has-background-black">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+                is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+            </p>
+        </div>
+    </footer>
+    <script src="/js.js"></script>
+</body>
+
+</html
