@@ -37,6 +37,8 @@ html.is-leaving .transition-fade{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: rgba(131, 137, 143, 0.555);
+    font-size: 40px;
 }
 
 .breadcrumb li a {
