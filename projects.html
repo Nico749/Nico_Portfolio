@@ -17,7 +17,7 @@
         .center {
             display: flex;
             justify-content: center;
-            text-align: center;
+            align-items: center;
             font-size: 40px;
             color: white;
 
@@ -27,29 +27,40 @@
 
 <body>
 
-    <div id="swup" class="transition-fade">
-        <section class="hero has-background-black">
-            <div class="hero-body">
-                <div class="column">
-                    <button id="home"><a href="/home.html"> back</a></button>
-                    <h1 class="center"> Projects</h1>
-                </div>
-            </div>
-        </section>
-        <div id="body-content">
-            <section class="section has-background-black">
+
+    <section class="hero has-background-black">
+        <nav class="breadcrumb has-bullet-separator is-right is-large desktop " aria-label="breadcrumbs">
+            <ul>
+
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/projects.html">Works</a></li>
+                <li><a href="#">Contact Me</a></li>
+            </ul>
+        </nav>
+        <div id="swup" class="transition-fade">
+            <!-- <div class="hero-body"> -->
+            <!-- <div class="column"> -->
+            <!-- <button id="home"><a href="/home.html"> back</a></button> -->
+            <h1 class="center"> Projects</h1>
+            <!-- </div> -->
+            <!-- </div> -->
+            <!-- </section> -->
+            <div id="body-content">
+                <!-- <section class="section has-background-black"> -->
                 <div class="container">
 
-                    <div class="columns">
-                        <div class="column is-one-forth">
-                            <article class="media notification is-warning">
+                    <div class="columns is-multiline">
+
+                        <div class="column is-half">
+                            <article class="media notification has-background-black">
 
                                 <figure class="media-left">
                                     <span class="icon is-medium">
                                         <i class="fa-solid fa-sun"></i>
                                     </span>
                                 </figure>
-                                <div class="media-content">
+                                <div class="media-content has-text-white">
                                     <div class="content">
                                         <h1 class="title is-size-4">Weather Dashboard</h1>
                                         <p class="is-size-5">
@@ -64,15 +75,16 @@
                                 </div>
                             </article>
                         </div>
-                        <div class="column is-one-forth">
-                            <article class="media notification has-background-primary">
+
+                        <div class="column is-half">
+                            <article class="media notification has-background-black">
 
                                 <figure class="media-left">
                                     <span class="icon is-medium">
                                         <i class="fa-solid fa-music"></i>
                                     </span>
                                 </figure>
-                                <div class="media-content">
+                                <div class="media-content has-text-white">
                                     <div class="content">
                                         <h1 class="title is-size-4">Event Finder</h1>
                                         <p class="is-size-5">
@@ -88,7 +100,7 @@
                             </article>
                         </div>
 
-                        <div class="column is-one-forth">
+                        <div class="column is-half">
                             <article class="media notification has-background-success">
 
                                 <figure class="media-left">
@@ -107,7 +119,8 @@
                                 </div>
                             </article>
                         </div>
-                        <div class="column is-one-forth">
+
+                        <div class="column is-half">
                             <article class="media notification has-background-info">
 
                                 <figure class="media-left">
@@ -126,13 +139,22 @@
                                 </div>
                             </article>
                         </div>
-
-
-
                     </div>
-            </section>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+    <footer class="footer has-background-black">
+        <!-- <div class="content has-text-centered">
+            <p>
+                <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+                is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+            </p>
+        </div> -->
+    </footer>
+    <script src="/js.js"></script>
+    <!-- </div> -->
 
 </body>
 
