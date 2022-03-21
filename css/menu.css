@@ -91,6 +91,20 @@
     position: fixed;
     top:0;
     left:0;
+    width: 20%;
+    height: 100%;
+    visibility: hidden;
+    overflow: hidden;
+    display: flex;
+    align-items:top;
+    justify-content: left;
+}
+
+@media (max-width:700px){
+    .menu-wrap .menu{
+    position: fixed;
+    top:0;
+    left:0;
     width: 100%;
     height: 100%;
     visibility: hidden;
@@ -98,11 +112,10 @@
     display: flex;
     align-items:center;
     justify-content: center;
+    }
 }
-
 .menu-wrap .menu>div{
     background:rgba(0, 0, 0, 0.9);
-    border-radius: 20%;
     width:100%;
     height: 100%;
     display: flex;

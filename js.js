@@ -29,3 +29,4 @@ function displayScreenshot() {
  
  btn.addEventListener("click",displayScreenshot)
  //liEl.addEventListener("click",displayInfo)
+ 
