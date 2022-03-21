@@ -1,23 +1,7 @@
 :root{
     --hovercolor: rgba(0, 204, 255, 0.733);
+    --textcolor:rgb(212, 209, 209);
 }
-
-
-@media (max-width:600px){
-    .desktop{
-        display: none;
-    }
-}
-
-/* .hide{
-    display: none;
-}
-
-@media (max-width:600px){
-    .hide{
-        display: block;
-    }
-} */
 
 .transition-fade {
     opacity:1;
@@ -42,8 +26,9 @@ html.is-leaving .transition-fade{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgba(131, 137, 143, 0.555);
-    font-size: 40px;
+    color: var(--textcolor);
+    font-size: 35px;
+    margin:20px;
 }
 
 .breadcrumb li a {
@@ -54,13 +39,47 @@ html.is-leaving .transition-fade{
     color: var(--hovercolor);
 }
 
-#contacts{
+#contacts, #ptitle{
     text-decoration: none;
 }
 
-#contacts:hover{
+#contacts:hover, #ptitle:hover{
     color:var(--hovercolor);
 }
 
+.bordercol{
+    border: solid 2px rgba(15, 148, 209, 0.664);
+    border-radius: 40px 40px 40px 40px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
 
 
+/* make the text wavy */
+.wavy {
+    position: relative;
+}
+
+.wavy span {
+    position: relative;
+    display: inline-block;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    animation: animate 2s ease-in-out infinite;
+    animation-delay: calc(0.1s * var(--i));
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0px);
+    }
+
+    20% {
+        transform: translateY(-20px);
+    }
+
+    40%,
+    100% {
+        transform: translateY(0px);
+    }
+}
