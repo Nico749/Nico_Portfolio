@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
     <link rel="stylesheet" href="/css/helpers.css">
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <script defer src="node_modules/swup/dist/swup.min.js"></script>
     <script defer src="swup.js"></script>
@@ -27,16 +30,22 @@
 
 <body class="has-background-black">
 
-    <nav class="breadcrumb has-bullet-separator is-right is-large desktop " aria-label="breadcrumbs">
-        <ul>
-
-            <li><a href="/home.html">Home</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/projects.html">Works</a></li>
-            <li><a href="/contacts.html">Contact Me</a></li>
-        </ul>
-    </nav>
-
+    <div class="menu-wrap">
+        <input type = "checkbox" class="toggler">
+        <div class ="hamburger"><div></div></div>
+         <div class ="menu">
+             <div>
+                 <div>
+                     <ul>
+                        <li><a href="/home.html">Home</a></li>
+                        <li><a href="/about.html">About</a></li>
+                        <li><a href="/projects.html">Works</a></li>
+                        <li><a href="/contacts.html">Contact Me</a></li>
+                     </ul>
+                 </div>
+             </div>
+         </div>
+    </div> 
     <div id="swup" class="transition-fade">
         <section class="hero has-background-black">
             <!-- <div class="hero-body"> -->
