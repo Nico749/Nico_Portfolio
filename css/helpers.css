@@ -1,3 +1,8 @@
+:root{
+    --hovercolor: rgba(0, 204, 255, 0.733);
+}
+
+
 @media (max-width:600px){
     .desktop{
         display: none;
@@ -46,5 +51,13 @@ html.is-leaving .transition-fade{
 }
 
 .breadcrumb li a:hover {
-    color: rgba(0, 204, 255, 0.733);
+    color: var(--hovercolor);
+}
+
+#contacts{
+    text-decoration: none;
+}
+
+#contacts:hover{
+    color:var(--hovercolor);
 }
