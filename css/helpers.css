@@ -5,14 +5,14 @@
 
 .transition-fade {
     opacity:1;
-    transition: 500ms;
+    transition: 700ms;
     transform: translateX(0);
     transform-origin: left;
 } 
 
  html.is-animating .transition-fade {
     opacity:1;
-    transform: translateX(100% );
+    transform: translateX(80% );
 }
 
 html.is-leaving .transition-fade{
@@ -48,10 +48,14 @@ html.is-leaving .transition-fade{
 }
 
 .bordercol{
-    border: solid 2px rgba(15, 148, 209, 0.664);
+    border: solid 2px rgba(240, 191, 29, 0.747);
     border-radius: 40px 40px 40px 40px;
     margin-bottom: 15px;
     margin-top: 15px;
+}
+
+.cen {
+    text-align: center;
 }
 
 
