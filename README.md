@@ -4,7 +4,6 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Demo](#demo)
-* [Room for Improvement](#room-for-improvement)
 * [Working Application](#working-application)
 * [License](#license)
 * [Contact Me](#contact-me)
@@ -21,11 +20,8 @@ Project is created with:
 * CSS
 
 ## Demo
-<a href="https://nico749.github.io/Nico_Portfolio/" target="_blank">Click here</a> to go to the portfolio
+<a href="https://nico-personal-portfolio.herokuapp.com/" target="_blank">Click here</a> to go to the portfolio
 
-## Room for Improvement
-
-The application is working fine but it needs some tweaks for styling and displaying on mobile devices
 
 ## Working Application
 The following image shows the web application's appearance:
