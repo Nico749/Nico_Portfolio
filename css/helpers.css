@@ -2,7 +2,7 @@
     --hovercolor: rgba(0, 204, 255, 0.733);
     --textcolor:rgb(212, 209, 209);
 }
-
+/* transition properties */
 .transition-fade {
     opacity:1;
     transition: 700ms;
@@ -31,13 +31,6 @@ html.is-leaving .transition-fade{
     margin:20px;
 }
 
-.breadcrumb li a {
-    color: white;
-}
-
-.breadcrumb li a:hover {
-    color: var(--hovercolor);
-}
 
 #contacts, #ptitle{
     text-decoration: none;

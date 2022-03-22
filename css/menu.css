@@ -1,3 +1,4 @@
+/* personalise hamburger menu */
 .menu-wrap{
     position: fixed;
     top: 0;
@@ -99,7 +100,7 @@
     align-items:top;
     justify-content: left;
 }
-
+/* making the menu full screen for width<700px */
 @media (max-width:700px){
     .menu-wrap .menu{
     position: fixed;
