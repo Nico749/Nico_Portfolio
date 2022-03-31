@@ -31,7 +31,16 @@ html.is-leaving .transition-fade{
     margin:20px;
 }
 
-
+@media (max-width:700px){
+    .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--textcolor);
+    font-size: 35px;
+    margin-top:70px;
+}
+}
 #contacts, #ptitle{
     text-decoration: none;
 }
